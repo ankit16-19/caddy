@@ -1,0 +1,1 @@
+Caddy docker image build with plugins for `github.com/lucaslorentz/caddy-docker-proxy@v2.8.11` && `github.com/caddy-dns/cloudflare`
