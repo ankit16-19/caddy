@@ -6,3 +6,7 @@ RUN xcaddy build \
 
 FROM caddy:2.7
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
+
+ENTRYPOINT ["/bin/caddy"]
+
+CMD ["docker-proxy"]
